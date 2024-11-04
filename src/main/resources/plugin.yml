@@ -1,0 +1,18 @@
+name: valiantZ-InfectedZone
+version: '1.0'
+main: space.vishsiri.valiantZInfectedZone.ValiantZInfectedZone
+api-version: '1.20'
+authors: [ VisherRyz ]
+website: vishsiri.space
+commands:
+  vzinfected:
+    description: Main command for ValiantZ Infected Zone plugin
+    usage: /vzinfected reload | status <player> <add|remove|get|setmax|take> <value>
+    permission: vzinfectedzone.use
+permissions:
+  vzinfectedzone.use:
+    description: Allows the player to use /vzinfected commands
+    default: op
+  vzinfectedzone.reload:
+    description: Allows the player to reload the plugin configuration
+    default: op

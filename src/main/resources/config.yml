@@ -1,0 +1,25 @@
+# Default player status value
+default_status: 100
+
+zone:
+  test_1:
+    priority: 1
+    type: "infected"
+    alias_name: "City"
+    effect:
+      A:
+        potion: SLOW
+        level: 1
+      B:
+        potion: WEAKNESS
+        level: 1
+    player_status:
+      value: 1
+      delay: 20
+  test_2:
+    priority: 1
+    type: "safe"
+    alias_name: "City Safe"
+    player_status:
+      value: 1
+      delay: 20
